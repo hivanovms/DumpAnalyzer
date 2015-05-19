@@ -62,6 +62,8 @@ DumpAnalyzer execution parameters:
 [-ShowResults]    : Shows the report on IE once it finishes.
 
 Examples:
+------------------
+
 DumpAnalyzer.exe -dumpFile c:\w3wp.dmp -symbols srv*c:\symsrv*http://msdl.microsoft.com/download/symbols -rules CrashHangAnalysis -out c:\
 
 DumpAnalyzer.exe -folder c:\dumpfiles\ -symbols srv*c:\symsrv*http://msdl.microsoft.com/download/symbols -rules CrashHangAnalysis -out c:\reports\ -showResults
