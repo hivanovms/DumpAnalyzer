@@ -1,6 +1,17 @@
 # DumpAnalyzer
 Console application to automate dump analysis using Debugdiag 2.0 analysis engine
 
+What is this application and Why should I use it?
+---------------------------------------------------
+
+Microsoft Support Services, created a tool that helps diagnosing common problems found on Windows user processes and applications called Debug Diagnostics (debugdiag). The tool has a rich UI that allows IT professionals to create rules to gather memory dumps from production applications. It also provides a WPF UI to run an automated set of rules, on the memory dumps that have been collected, to create an HTML report with with a detailed analysis.
+
+While the UI is very helpfull and complete, it was not designed for helping on automate the process of creating the analysis of collected dumps. Therefore I created this tool in order to have a way to automate the process of creating reports by running this simple command line tool.
+
+A version of this tool is currently used to generate automated analysis for Azure Web Apps on a extension called Diagnostics as a Service http://azure.microsoft.com/blog/2014/07/08/daas/
+
+If you are looking for a command line tool to automate the process of creating reports for dump files, you may find this tool usefull.
+
 Requirements:
 ----------------------------
 
